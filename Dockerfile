@@ -9,4 +9,5 @@ RUN echo "deb http://debian.datastax.com/community stable main" | sudo tee -a /e
 	apt-get install -y opscenter
 
 EXPOSE 8888
-CMD["yes > /dev/null"]
+EXPOSE 50031
+EXPOSE 61620
